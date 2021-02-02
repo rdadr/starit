@@ -5,24 +5,31 @@ const FormSignup = () =>{
     return (
       <section className="mobail">
           <div className="container">
-				    <h3>Star it!<br></br>From quality to loyalty!</h3>  
-          <form>
+				    <h3>Star it!<br/>From quality to loyalty!</h3>  
+              <h4>Register<br></br>Please fill in this form to create an account</h4>
+                  <hr/>
+          <form action="action_page.php">
             <label for="name" id="naim">Your Name:</label> 
               <input type="text" placeholder="enter name"/>
             <label for="surname" id="surname">Your Surname:</label> 
               <input type="text" placeholder="enter surname"/>
-                <br></br>
+                <br/>
                 <label for="email" id="email">Your Email:</label>
               <input type="email" placeholder="enter email"></input>
-                 <br></br>        
+                 <br/>       
             <label for="psw" id="psw">Your Password:</label> 
               <input type="password" placeholder="enter password"/>
-                <br></br>    
+                <br/>   
                 <label for="psw-repeat" id="psw">Repeat Password:</label> 
               <input type="password" placeholder="repeat password"/>
-                <br></br>    
+                  <hr/>
+                  <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
             <button type="submit">Sign up</button>
-            
+
+            <div className="signin">
+                <p>Already have an account? <a href="#">Sign in</a>.</p>
+            </div>
+
           </form>  
 				</div>
       </section>
