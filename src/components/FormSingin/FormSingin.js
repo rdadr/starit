@@ -1,19 +1,19 @@
 import '../FormMobail.scss';
 import React, { Component } from "react";
 
-const FormName = () =>{
+const FormSignin = () =>{
     return (
       <section className="mobail">
           <div className="container">
 				    <h3>Star it!<br></br>From quality to loyalty!</h3>  
           <form>
-            <label for="name" id="naim">Your Name:</label> 
-              <input type="text" placeholder="enter name"/>
-                    <br></br> 
+                <label for="email" id="email">Your Email:</label>
+              <input type="email" placeholder="enter email"></input>
+                 <br></br>        
             <label for="psw" id="psw">Your Password:</label> 
               <input type="password" placeholder="enter password"/>
-                    <br></br>        
-            <button type="submit">Submit</button>
+                <br></br>    
+            <button type="submit">Sign in</button>
             
           </form>  
 				</div>
@@ -21,5 +21,5 @@ const FormName = () =>{
     );
 }
 
-export default FormName; 
+export default FormSignin; 
 

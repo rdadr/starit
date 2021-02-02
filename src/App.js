@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
-import FormName from "./components/FormName/FormName";
+import FormSignup from "./components/FormSignup/FormSignup";
 
 function App() {
   return (
     <>
-    <FormName />
+    <FormSignup />
     </>
        
   );
