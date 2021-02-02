@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/starit/static/css/main.c0687880.chunk.css",
+    "main.js": "/starit/static/js/main.898b6360.chunk.js",
+    "main.js.map": "/starit/static/js/main.898b6360.chunk.js.map",
+    "runtime-main.js": "/starit/static/js/runtime-main.9e8499b8.js",
+    "runtime-main.js.map": "/starit/static/js/runtime-main.9e8499b8.js.map",
+    "static/js/2.e34d4d89.chunk.js": "/starit/static/js/2.e34d4d89.chunk.js",
+    "static/js/2.e34d4d89.chunk.js.map": "/starit/static/js/2.e34d4d89.chunk.js.map",
+    "static/js/3.f0d31187.chunk.js": "/starit/static/js/3.f0d31187.chunk.js",
+    "static/js/3.f0d31187.chunk.js.map": "/starit/static/js/3.f0d31187.chunk.js.map",
+    "index.html": "/starit/index.html",
+    "static/css/main.c0687880.chunk.css.map": "/starit/static/css/main.c0687880.chunk.css.map",
+    "static/js/2.e34d4d89.chunk.js.LICENSE.txt": "/starit/static/js/2.e34d4d89.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e8499b8.js",
+    "static/js/2.e34d4d89.chunk.js",
+    "static/css/main.c0687880.chunk.css",
+    "static/js/main.898b6360.chunk.js"
+  ]
+}
