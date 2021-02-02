@@ -1,5 +1,6 @@
 {
   "name": "starit",
+  "homepage": "https://rdadr.github.io/starit/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
