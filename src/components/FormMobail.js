@@ -5,7 +5,7 @@ const FormMobail = () =>{
     return (
       <section className="mobail">
           <div className="container">
-				    <h3>Star it! <br></br>From quality to loyalty!</h3>  
+				    <h3>Star it!<br></br>From quality to loyalty!</h3>  
           <form>
             <label for="name" id="naim">Your Name:</label> 
               <input type="text" placeholder="enter name"/>

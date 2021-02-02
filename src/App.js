@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
-import FormMobail from "./components/FormMobail";
+import FormName from "./components/FormName/FormName";
 
 function App() {
   return (
     <>
-    <FormMobail />
+    <FormName />
     </>
        
   );
