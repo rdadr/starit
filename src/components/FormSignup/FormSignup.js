@@ -1,4 +1,4 @@
-import '../FormMobail.scss';
+import '../FormSign.scss';
 import React, { Component } from "react";
 
 const FormSignup = () =>{
@@ -9,11 +9,9 @@ const FormSignup = () =>{
               <h4>Register<br></br>Please fill in this form to create an account</h4>
                   <hr/>
           <form action="action_page.php">
-            <label for="name" id="naim">Your Name:</label> 
+            <label for="username" id="naim">Your Name:</label> 
               <input type="text" placeholder="enter name"/>
-            <label for="surname" id="surname">Your Surname:</label> 
-              <input type="text" placeholder="enter surname"/>
-                <br/>
+                 <br/>
                 <label for="email" id="email">Your Email:</label>
               <input type="email" placeholder="enter email"></input>
                  <br/>       
