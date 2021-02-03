@@ -9,7 +9,8 @@ const FormSignin = () =>{
                      
           <form action="action_page.php">
                 <label for="email" id="email">Your Email:</label>
-                    <input type="email" placeholder="enter email" name="email" required/><br/>
+                    <input type="email" placeholder="enter email" name="email" required/>
+                <br/>
                 <label for="psw" id="psw">Your Password:</label> 
                     <input type="password" placeholder="enter password" name="psw" required/>
                 <hr/> 
