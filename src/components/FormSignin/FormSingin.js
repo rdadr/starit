@@ -1,5 +1,5 @@
-import '../FormSign.scss';
 import React, { Component } from "react";
+import '../FormSign.scss';
 
 const FormSignin = () =>{
     return (

@@ -1,5 +1,6 @@
-import '../FormSign.scss';
 import React, { Component } from "react";
+import '../FormSign.scss';
+
 
 const FormSignup = () =>{
     return (
@@ -21,7 +22,7 @@ const FormSignup = () =>{
                 <label for="psw-repeat" id="psw">Repeat Password:</label> 
               <input type="password" placeholder="repeat password"/>
                   <hr/>
-                  <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                  <p>By creating an account you agree to our <a href="#">Terms npm& Privacy</a>.</p>
             <button type="submit">Sign up</button>
 
             <div className="signin">
