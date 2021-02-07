@@ -11,7 +11,6 @@ const Home = ({title, links, logos}) => {
 	  <div className='home-header'>
 					{logosImages}
 			</div>
-
 			<nav className='home-navigation'>
 					{navItems}
 			</nav>
