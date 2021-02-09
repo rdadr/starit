@@ -1,9 +1,18 @@
-import React, { Component } from "react";
-import '../FormSign.scss';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import '../../FormSign.scss'
 
-const FormSignin = () =>{
+export default function Router() {
     return (
-      <section className="mobail">
+      <section className="forms">
+
+        <div>
+        <Link to={'/Page1'}>Page1</Link><br/>
+        <Link to={'/page2'}>Page2</Link><br/>
+        <Link to={'/signup'}>SignUp</Link><br/>
+        <Link to={'/'}>Home</Link>
+        </div>
+
           <div className="container">
 				    <h3>Star it!<br/>From quality to loyalty!</h3> 
                      
@@ -19,13 +28,10 @@ const FormSignin = () =>{
                 <hr/> 
             <button type="submit">Sign in</button>
             <label>
-                <input type="checkbox" checked="checked" name="remember" /> Remember me
-            </label>
+                <input type="checkbox" name="remember" checked="checked"  /> Remember me</label>
           </form>  
-				</div>
+		</div>
       </section>
     );
 }
-
-export default FormSignin; 
 

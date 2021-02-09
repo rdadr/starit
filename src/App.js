@@ -1,38 +1,16 @@
-import React from 'react';
+import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
+import MainRouter from './Routes'
 import './App.scss';
-import Home from './components/Home/Home';
+import HomeComponent from './Pages/Home/Components/HomeComponent'
+
 
 function App() {
-	const header = [
-	];
-
-	const navLinks = [
-		{
-			title: 'home',
-			href:'#home'
-		},
-		{
-			title: 'SERVICE',
-			href: '#servise'
-		},
-		{
-			title: 'DASHBOARD',
-			href: '#dashbord'
-		},
-		{
-			title: 'sign up',
-			href: '#signup'
-		}
-	];
-	
 
   return (
-   <>
-		<Home  title='Service for collecting and analyzing customer feedback' 
-			logos={header}
-			links={navLinks} 
-		/>
-   </>
+    <Router>
+      <MainRouter/>
+    </Router>
   );
 }
 
